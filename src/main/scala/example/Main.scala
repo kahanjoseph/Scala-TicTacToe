@@ -167,6 +167,7 @@ def setUpPlayers(): Seq[Boolean] = {
   println(s"Player X is human: $x")
   println(s"Player Y is human: $y")
 
+  
   var game = TicTacToe(Vector.fill(3)(Vector.fill(3)(0)), 1, 0, x, y) // Initialize the game state
 
   // Main game loop
